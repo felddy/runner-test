@@ -3,6 +3,10 @@ on:
   workflow_dispatch:
 
 jobs:
+  diagnostics:
+    name: Diagnostics
+    uses: felddy/reusable-workflows/.github/workflows/diagnostics.yml@64c533d92826ed147972fab05311f9ac35fdb48e # tag=v3.0.0
+
   Explore-GitHub-Actions:
     runs-on: test-runners
     steps:
