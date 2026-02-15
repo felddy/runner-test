@@ -5,7 +5,7 @@ on:
 jobs:
   diagnostics:
     name: Diagnostics
-    runs-on: ubuntu-latest
+    runs-on: test-runners
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2 # tag=v2.13.2
